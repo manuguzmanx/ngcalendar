@@ -1,4 +1,38 @@
+.calendar-container {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: 0 0 25rem 0;
+}
+
+.banner {
+  text-align: center;
+  background-color: rgb(87, 143, 247);
+  display: block;
+  margin: 0;
+  padding: 1rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+  border-radius: 20px;
+}
+
 .btn-calendar {
   width: 100%;
-  margin: 2rem 0;
+  margin: 2rem 0 0 0;
+  padding: 1rem;
+}
+
+.tasks-container {
+  display: block;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: row;
+
+  label {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
 }

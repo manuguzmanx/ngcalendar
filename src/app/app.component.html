@@ -1,4 +1,30 @@
-<button class="btn-calendar" pButton type="button" label="Calendario" ></button>
-<!-- <p-table [value]="data"></p-table> -->
+<div class="container">
+  <div class="banner">
+    Habit Tracker
+  </div>
 
-  <p-calendar class="max-w-full" [inline]="true" [showWeek]="false" [touchUI]="true"/>
+  <button class="btn-calendar" pButton type="button" label="Calendario" ></button>
+  <!-- <p-table [value]="data"></p-table> -->
+  <div class="calendar-container">
+    <p-calendar class="max-w-full" [inline]="true" [showWeek]="false" [touchUI]="true"/>
+  </div>
+
+  <div class="tasks-container">
+    <div class="task-container">
+      <p-checkbox id="check1" [binary]="true" inputId="binary"/>
+      <label for="check1">Ejercicio</label>
+    </div>
+    <div class="task-container">
+      <p-checkbox id="check2" [binary]="true" inputId="binary"/>
+      <label for="check2">Leer</label>
+    </div>
+    <div class="task-container">
+      <p-checkbox id="check3" [binary]="true" inputId="binary"/>
+      <label for="check3">Caminar</label>
+    </div>
+    <div class="task-container">
+      <p-checkbox id="check4" [binary]="true" inputId="binary"/>
+      <label for="check4">Estudiar</label>
+    </div>
+  </div>
+</div>
